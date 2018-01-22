@@ -10,6 +10,7 @@ public class Producer extends Thread{
     public static Queue<Integer> queue = new LinkedList<>();
 
 
+
     private int random(){
         int randNum=0;
         randNum += begNum + (int) (Math.random()*endNum);
